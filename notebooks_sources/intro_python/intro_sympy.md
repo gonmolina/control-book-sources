@@ -6,9 +6,9 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.11.0
+    jupytext_version: 1.16.1
 kernelspec:
-  display_name: Python 3
+  display_name: Python 3 (ipykernel)
   language: python
   name: python3
 ---
@@ -51,20 +51,20 @@ polynomial.expand()
 +++ {"lang": "es"}
 
 Observe lo que sucedió: definimos un nuevo nombre llamado `polynomial`
-y luego usamos el método `.expand()` para expandir el polinomio. Podemos ver
+y luego usamos el método `.expand()` para expandir el polinomio.
+
+```{hint}
+Podemos ver
 todos los métodos asociados con un objeto escribiendo su nombre y un punto y
 luego presionando "tabulador".
-
-Acceda a la lista de métodos para la variable polynomial ingresando "." y
-presionando tabulador al final de la línea en la celda a continuación.
+````
 
 +++ {"lang": "es"}
 
 Para obtener ayuda sobre cualquier método, podemos escribir su nombre y
 agregar un `?` al final, luego evaluar la celda.
 
-Obtenga ayuda sobre el método `.expand()` mediante la evaluación de la celda
-a continuación:
+Obtenga ayuda sobre el método `.expand()` mediante la evaluación de la celda a continuación:
 
 ```{code-cell} ipython3
 polynomial.expand?
@@ -72,8 +72,12 @@ polynomial.expand?
 
 +++ {"lang": "es"}
 
+```{hint}
 También es posible obtener ayuda para una función colocando el cursor entre
-los paréntesis y presionando Mayúscula + Tabulador
+los paréntesis y presionando Mayúscula + Tabulador.
+
+Otra forma es utilizando el botón secundario sobre el cuaderno y elegir la opción *Show Contextual Help* y luego parándose sobre la función de la cual se requiere ver la documentación.
+```
 
 +++ {"lang": "es"}
 
@@ -169,9 +173,7 @@ float(number)
 ## Resolver ecuaciones
 
 `SymPy` puede ayudarnos a resolver y manipular  ecuaciones utilizando la
-función `solve`. Como muchas funciones de resolución, encuentra ceros de una
-función, por lo que tenemos que reescribir las ecuaciones de igualdad para
-que sean iguales a cero,
+función `solve`. Como muchas funciones de resolución, encuentra ceros de una función, por lo que tenemos que reescribir las ecuaciones de igualdad para que sean iguales a cero,
 
 $$
 \begin{aligned}

@@ -6,9 +6,9 @@ jupytext:
     extension: .md
     format_name: myst
     format_version: 0.13
-    jupytext_version: 1.11.0
+    jupytext_version: 1.16.1
 kernelspec:
-  display_name: Python 3
+  display_name: Python 3 (ipykernel)
   language: python
   name: python3
 ---
@@ -18,8 +18,7 @@ kernelspec:
 Estaremos utilizando Python a través de una interfaz conveniente
 que son los [Jupyter Notebook](http://jupyter.org/).
 Si a este cuaderno lo está visualizando a través de una pagina web, puede
-descargarlo haciendo click en icono de descarga ubicado arriba a la derecha
-y seleccionando el formato `ipynb`. También se puede ejecutar a desde la web,
+descargarlo haciendo click en icono de descarga ubicado arriba a la derecha y seleccionando el formato `ipynb`. También se puede ejecutar a desde la web,
 usando *binder*, haciendo click donde se encuentra el cohete. Los archivos
 con la extensión `.ipynb` son cuadernos de jupyter o jupyter notebooks.
 
@@ -60,14 +59,13 @@ Sin embargo cuenta con una gran documentación en la web. Se puede descarga
 
 ## Un recorrido rápido
 
-Tómese un segundo para recorrer la interfaz del cuaderno con el software que
-haya elegido para visualizarlo y editarlo. Haga doble click sobre las celdas
-y mire el código fuente de cada una. Trate de entender la forma es que se
-escriben los títulos, que se definen las ecuaciones y como es diferencia una
+Cualquiera sea la interfaz mediante elegida para utilizar los cuadernos de Jupyter, es importante tomarse un segundo para recorrerla.
+Haga doble click sobre las celdas y mire el código fuente de cada una. Trate de entender la forma es que se
+escriben los títulos, que se definen las ecuaciones y cual es diferencia una
 celda donde se va escribir código y una donde se escribe texto o ecuaciones
 matemáticas.
 
-Ahora que está familiarizado con la nomenclatura, ¡ejecutemos algo de código!
+Una vez que se está familiarizado con la nomenclatura, ¡ejecutemos algo de código!
 
 *Evalúe la celda a continuación para imprimir por pantalla el mensaje
 "Hello World" haciendo clic dentro de la celda y luego presionando
@@ -95,12 +93,14 @@ $$f(a)=\int^{a=\infty}_{a=0} \frac{1}{a+2} \mathrm{d}a$$
 
 Haga doble clic en la fórmula anterior para ver el código que la produjo.
 
+El formato con el cual se escribe los textos se conoce como *Markdown*.
+
 +++
 
 Aprovechemos lo aprendido para introducirnos en el mundo de programación
 científica con Python.
 
-Los siguientes secciones de la introducción son a nivel informátivo. No es necesario
+Los siguientes secciones de la introducción son a nivel informativo. No es necesario
 estudiarlo en esta materia, pero puede ser útil utilizarlo como material de consulta
 para resolver problemas comunes de la materia así como también de otras disciplinas
 científicas/ingenieriles.
